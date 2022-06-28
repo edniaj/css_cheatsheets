@@ -1,6 +1,6 @@
 # Summary
 
-### template
+### -template
 This will define the template of the container
 ### -gap
 This will define the gaps between the cells
@@ -21,7 +21,8 @@ This will structure how the content inside the cells is structured
 
   grid-template-rows: repeat(10,50px); 
 
-
+## Difference between auto-fit vs auto-fill
+### tldr auto-fill stretch vs auto-fit start
   Automatically fit in minimum 340px and maximum 1 fr. If theres more than 340px slack, it will fit 1 more grid item. It will wrap
   auto-fill behavior: “fill that row up! Add as many columns as you can. I don’t care if they’re mpty — they should all still show up
 
